@@ -1,0 +1,12 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ec5d53a6",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:gear_wood"
+		}],
+		only_from_crafting: true
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "46b227b6",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}],
+		only_from_crafting: true
+	}]
+}

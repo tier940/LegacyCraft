@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	dependencies: [
+		"239db57b"
+	],
+	tasks: [{
+		uid: "8e89b640",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:engine"
+		}]
+	}]
+}
