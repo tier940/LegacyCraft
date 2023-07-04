@@ -50,7 +50,15 @@
   "item.projectred.core.itemResource.electrotine_dust_-1694037871": true,
   "item.railcraft.dust.sulfur_-1869167416": true,
   "item.railcraft.dust.saltpeter_907682254": true,
-  "item.railcraft.dust.obsidian_684483906": true
+  "item.railcraft.dust.obsidian_684483906": true,
+  "item.itemDustCoal": true,
+  "item.itemDustIron": true,
+  "item.itemDustGold": true,
+  "item.itemDustSilver": true,
+  "item.itemDustCopper": true,
+  "item.itemDustBronze": true,
+  "item.itemDustTin": true,
+  "item.itemFlour_-1537062357": true
  },
  "extractor": {
   "item.coal_764578481": true,
