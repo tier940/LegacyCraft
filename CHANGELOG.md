@@ -9,6 +9,9 @@
 - Universal Tweaks
 - WanionLib
 
+## Move mods
+- Toast Control -> Universal Tweaks
+
 * * *
 
 # v2.1.1
