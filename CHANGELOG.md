@@ -1,3 +1,23 @@
+# v2.2.1
+## Update mods
+- BuildCraft RF: ReFluxified
+- MixinBooter
+- ModularUI
+- Mouse Tweaks Unofficial
+- Inventory Bogo Sorter
+- LoliASM
+- Placebo
+- CraftTweaker
+- Universal Tweaks
+
+## Add mod
+- ConfigAnytime
+
+## Move mod
+- Foam​Fix -> VintageFix
+
+* * *
+
 # v2.2.0
 ## Update mods
 - LoliASM

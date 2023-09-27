@@ -1,38 +1,52 @@
 name: Deploy preview modpack
+
+permissions:
+  contents: write
+  deployments: write
+
 on:
-  push:
-    tags:
-      - '*-pr-*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Modpack version'
+        required: true
+      pr_version:
+        description: 'Modpack pr version'
+        required: true
+
+env:
+  # Version of the mod
+  FULL_VERSION: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.pr_version }}"
+  # type of release
+  NAME: "LegacyCraft"
 
 jobs:
   deploy:
-    permissions:
-      contents: write
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Get the version
+      - name: Check if tag already exists
         run: |
-          echo VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}') >> $GITHUB_ENV
-          echo PR_VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $3}') >> $GITHUB_ENV
+          if git rev-parse --verify --quiet "v${{ github.event.inputs.version }}"; then
+            echo "Version ${{ github.event.inputs.version }} already exists, aborting workflow."
+            exit 1
+          fi
 
       - name: Set the version
         run: |
-          MODPACKVERSION=${{ env.VERSION }}
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
 
       - name: Archive Release CF
         run: |
-          zip -r ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/config/ ./overrides/local/ ./overrides/resources/ ./overrides/scripts/
+          zip -r ./${{ env.NAME }}-ex-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/config/ ./overrides/local/ ./overrides/resources/ ./overrides/scripts/
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
           cache: pip
 
       - name: Install dependencies
@@ -50,7 +64,7 @@ jobs:
           mv -vf ./overrides/ .minecraft/
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
-          zip -r ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files
         run: |
@@ -59,15 +73,16 @@ jobs:
       - name: Archive Release Server
         run: |
           mv -vf .minecraft/* ./
-          zip -r ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-server.zip ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./config/ ./local/ ./mods/ ./resources/ ./scripts/
+          zip -r ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-server.zip ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: "${{ env.FULL_VERSION }}"
+          draft: false
           prerelease: true
           generate_release_notes: true
           files: |
-            ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip
-            ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip
-            ./LegacyCraft-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-server.zip
+            ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-cf.zip
+            ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-mmc.zip
+            ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-server.zip
