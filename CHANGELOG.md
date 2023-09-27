@@ -19,6 +19,7 @@
 
 ## Move mod
 - Foam​Fix -> VintageFix
+- The One Probe -> The One Probe Community Edition
 
 * * *
 
