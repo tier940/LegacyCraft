@@ -17,6 +17,9 @@
 - Entity Culling
 - 燐/Hesperus
 
+## Remove mod
+- CraftTweaker Integration
+
 ## Move mod
 - Foam​Fix -> VintageFix
 - The One Probe -> The One Probe Community Edition

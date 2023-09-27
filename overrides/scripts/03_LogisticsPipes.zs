@@ -1,7 +1,5 @@
 # Imoprts
 import mods.jei.JEI;
-import mods.ctintegration.projecte.EMCManager;
-EMCManager.mapEMC();
 
 
 
@@ -11,60 +9,42 @@ EMCManager.mapEMC();
 # Logistics Pipes' Guide Book
 recipes.remove(<logisticspipes:guide_book>);
 mods.jei.JEI.hide(<logisticspipes:guide_book>);
-mods.jei.JEI.addDescription(<logisticspipes:guide_book>, "No creation will be done with this item!");
-<logisticspipes:guide_book>.emc = 0;
 
 # Nano Hopper
 mods.jei.JEI.hide(<logisticspipes:parts:3>);
-<logisticspipes:guide_book>.emc = 0;
 
 # Logistics Broken Item
 mods.jei.JEI.hide(<logisticspipes:broken_item>);
-<logisticspipes:broken_item>.emc = 0;
 
 # Logistics Item Card
 mods.jei.JEI.hide(<logisticspipes:item_card>);
-<logisticspipes:item_card>.emc = 0;
 
 # Logistics Controller Upgrade
 mods.jei.JEI.hide(<logisticspipes:upgrade_logic_controller>);
-<logisticspipes:upgrade_logic_controller>.emc = 0;
 
 # Raw Basic Chip
 recipes.remove(<logisticspipes:chip_basic_raw>);
 mods.jei.JEI.hide(<logisticspipes:chip_basic_raw>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_basic_raw>, "No creation will be done with this item!");
-<logisticspipes:chip_basic_raw>.emc = 0;
 
 # Basic Chip
 furnace.remove(<logisticspipes:chip_basic>);
 mods.jei.JEI.hide(<logisticspipes:chip_basic>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_basic>, "No creation will be done with this item!");
-<logisticspipes:chip_basic>.emc = 0;
 
 # Raw Advanced Chip
 recipes.remove(<logisticspipes:chip_advanced_raw>);
 mods.jei.JEI.hide(<logisticspipes:chip_advanced_raw>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_advanced_raw>, "No creation will be done with this item!");
-<logisticspipes:chip_advanced_raw>.emc = 0;
 
 # Advanced Chip
 furnace.remove(<logisticspipes:chip_advanced>);
 mods.jei.JEI.hide(<logisticspipes:chip_advanced>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_advanced>, "No creation will be done with this item!");
-<logisticspipes:chip_advanced>.emc = 0;
 
 # Raw FPGA Chip
 recipes.remove(<logisticspipes:chip_fpga_raw>);
 mods.jei.JEI.hide(<logisticspipes:chip_fpga_raw>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_fpga_raw>, "No creation will be done with this item!");
-<logisticspipes:chip_fpga_raw>.emc = 0;
 
 # FPGA Chip
 furnace.remove(<logisticspipes:chip_fpga>);
 mods.jei.JEI.hide(<logisticspipes:chip_fpga>);
-mods.jei.JEI.addDescription(<logisticspipes:chip_fpga>, "No creation will be done with this item!");
-<logisticspipes:chip_fpga>.emc = 0;
 
 # Pipe Controller
 recipes.remove(<logisticspipes:pipe_controller>);
@@ -84,8 +64,6 @@ recipes.addShaped(<logisticspipes:pipe_manager>, [
 # Logistics programmer
 recipes.remove(<logisticspipes:logistics_programmer>);
 mods.jei.JEI.hide(<logisticspipes:logistics_programmer>);
-mods.jei.JEI.addDescription(<logisticspipes:logistics_programmer>, "No creation will be done with this item!");
-<logisticspipes:logistics_programmer>.emc = 0;
 
 # Logistics HUD Glasses
 recipes.addShaped(<logisticspipes:hud_glasses>, [
@@ -120,7 +98,6 @@ recipes.addShaped(<logisticspipes:sign_creator>, [
     [null, <minecraft:sign>, null],
     [null, <buildcraftcore:gear_diamond>, null]
 ]);
-<logisticspipes:sign_creator>.emc = 0;
 
 # Blank Module
 recipes.remove(<logisticspipes:module_blank>);
@@ -129,7 +106,6 @@ recipes.addShaped(<logisticspipes:module_blank>, [
     [<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>],
     [<minecraft:paper>, <minecraft:gold_nugget>, <minecraft:paper>]
 ]);
-<logisticspipes:module_blank>.emc = 0;
 
 # ItemSink Module
 recipes.remove(<logisticspipes:module_item_sink>);
@@ -365,7 +341,6 @@ recipes.addShaped(<logisticspipes:upgrade_power_transportation> * 4, [
     [<buildcraftcore:gear_iron>, <minecraft:glowstone>, <buildcraftcore:gear_iron>],
     [<minecraft:paper>, <minecraft:lapis_block>, <minecraft:paper>]
 ]);
-<logisticspipes:upgrade_power_transportation>.emc = 0;
 
 # Item Speed Upgrade
 recipes.remove(<logisticspipes:upgrade_speed>);
@@ -526,10 +501,6 @@ recipes.addShaped(<logisticspipes:remote_orderer>, [
     [<minecraft:glass>, <minecraft:glass>, null],
     [<buildcraftcore:gear_diamond>, <buildcraftcore:gear_diamond>, null]
 ]);
-<logisticspipes:remote_orderer>.emc = 0;
-
-# Logistics Disk
-<logisticspipes:disk>.emc = 0;
 
 
 
@@ -543,7 +514,6 @@ recipes.addShaped(<logisticspipes:pipe_transport_basic>, [
     [null, <minecraft:redstone>, null],
     [null, null, null]
 ]);
-<logisticspipes:pipe_transport_basic>.emc = 0;
 
 # Basic Logistics Pipe
 recipes.remove(<logisticspipes:pipe_basic>);
@@ -558,7 +528,6 @@ recipes.addShaped(<logisticspipes:pipe_basic> * 8, [
     [<buildcraftcore:gear_gold>, <buildcrafttransport:pipe_diamond_item>, <buildcraftcore:gear_gold>],
     [<minecraft:glass>, <minecraft:redstone_torch>, <minecraft:glass>]
 ]);
-<logisticspipes:pipe_basic>.emc = 0;
 
 # Request Logistics Pipe MK1
 recipes.remove(<logisticspipes:pipe_request>);
@@ -802,8 +771,6 @@ recipes.addShaped(<logisticspipes:pipe_fluid_terminus>, [
 # Logistics Block Frame
 recipes.remove(<logisticspipes:frame>);
 mods.jei.JEI.hide(<logisticspipes:frame>);
-mods.jei.JEI.addDescription(<logisticspipes:frame>, "No creation will be done with this block!");
-<logisticspipes:frame>.emc = 0;
 
 # Logistics Crafting Table
 recipes.remove(<logisticspipes:crafting_table>);
@@ -812,7 +779,6 @@ recipes.addShaped(<logisticspipes:crafting_table>, [
     [null, <buildcraftcore:gear_stone>, null],
     [<minecraft:planks>, <minecraft:chest>, <minecraft:planks>]
 ]);
-<logisticspipes:crafting_table>.emc = 0;
 
 # Logistics Fuzzy Crafting Table
 recipes.remove(<logisticspipes:crafting_table_fuzzy>);
@@ -847,14 +813,10 @@ recipes.addShaped(<logisticspipes:security_station>, [
 # Logistics Power Junction
 recipes.remove(<logisticspipes:power_junction>);
 mods.jei.JEI.hide(<logisticspipes:power_junction>);
-mods.jei.JEI.addDescription(<logisticspipes:power_junction>, "No Power Mode!");
-<logisticspipes:power_junction>.emc = 0;
 
 # Logistics Program Compiler
 recipes.remove(<logisticspipes:program_compiler>);
 mods.jei.JEI.hide(<logisticspipes:program_compiler>);
-mods.jei.JEI.addDescription(<logisticspipes:program_compiler>, "No creation will be done with this block!");
-<logisticspipes:program_compiler>.emc = 0;
 
 # Logistics Statistics Table
 recipes.remove(<logisticspipes:statistics_table>);
@@ -886,7 +848,3 @@ recipes.addShaped(<logisticspipes:power_provider_eu>, [
     [<ic2:ic2upgrades>, <ore:blockRedstone>, <ic2:ic2upgrades>],
     [<minecraft:paper>, <ic2:ic2upgrades:1>, <minecraft:paper>]
 ]);
-
-
-
-EMCManager.mapEMC();

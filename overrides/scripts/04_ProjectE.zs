@@ -1,7 +1,5 @@
 # Imoprts
 import mods.jei.JEI;
-import mods.ctintegration.projecte.EMCManager;
-EMCManager.mapEMC();
 
 
 
@@ -22,7 +20,6 @@ JEI.removeAndHide(<akutoengine:kleinstarex:1>);
 # ProjectE
 ## Watch
 recipes.remove(<projecte:item.pe_time_watch>);
-<projecte:item.pe_time_watch>.emc = 1000000000;
 
 # Project EX
 # Collectors for PEEX
@@ -35,9 +32,6 @@ recipes.addShapeless(<projectex:collector:8>, [<peex:collectors/collectormk9>]);
 recipes.addShapeless(<projectex:collector:9>, [<peex:collectors/collectormk10>]);
 
 # PEEX
-## AEGU
-<peex:aegu/aegumk3_off>.emc = 788353456;
-
 # EMC Baubles
 recipes.addShapeless(<peex:collectors/collectormk4>, [<emcbaubles:collector_mk4_necklace>]);
 recipes.addShapeless(<peex:collectors/collectormk5>, [<emcbaubles:collector_mk5_necklace>]);
@@ -81,7 +75,3 @@ recipes.addShaped(<emcbaubles:collector_mk10_necklace>, [
     [<minecraft:string>, <peex:collectors/collectormk10>, <minecraft:string>],
     [<minecraft:string>, <minecraft:string>, <minecraft:string>]
 ]);
-
-
-
-EMCManager.mapEMC();

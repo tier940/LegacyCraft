@@ -1,6 +1,4 @@
 # Imoprts
-import mods.ctintegration.projecte.EMCManager;
-EMCManager.mapEMC();
 
 
 
@@ -31,7 +29,3 @@ recipes.addShaped(<multipagechest:multipagechest>, [
     [<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
     [<ironchest:iron_chest:2>, <ore:plankWood>, <ironchest:iron_chest:2>]
 ]);
-
-
-
-EMCManager.mapEMC();
