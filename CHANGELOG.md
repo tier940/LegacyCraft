@@ -12,6 +12,10 @@
 
 ## Add mod
 - ConfigAnytime
+- RenderLib
+- Nothirium
+- Entity Culling
+- 燐/Hesperus
 
 ## Move mod
 - Foam​Fix -> VintageFix
