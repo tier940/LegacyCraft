@@ -1,25 +1,5 @@
 # Imoprts
 import mods.jei.JEI;
-import mods.ctintegration.projecte.EMCManager;
-
-EMCManager.mapEMC();
-
-
-
-########################################
-# Items
-########################################
-# Treetap
-<ic2:itemtreetap>.emc = 40;
-
-# Dust Coal
-<ic2:itemmisc:6>.emc = 0;
-
-# Dust Charcoal
-<ic2:itemmisc:12>.emc = 0;
-
-# Refined Iron Ingot
-<ic2:itemmisc:53>.emc = 0;
 
 
 
@@ -70,17 +50,3 @@ recipes.addShaped(<vrgenerator:visibleraysolar:8>, [
     [<vrgenerator:visibleraysolar:3>, <ic2:blockelectric:9>, <vrgenerator:visibleraysolar:3>],
     [<ic2:itemmisc:256>, <minecraft:glowstone>, <ic2:itemmisc:256>]
 ]);
-<vrgenerator:visibleraysolar:8>.emc = 0;
-
-# Small Electric Flux Generator (LV)
-<ic2:blockcompactedgenerator:6>.emc = 1652;
-
-# Medium Electric Flux Generator (MV)
-<ic2:blockcompactedgenerator:7>.emc = 5048;
-
-# Big Electric Flux Generator (HV)
-<ic2:blockcompactedgenerator:8>.emc = 25260;
-
-
-
-EMCManager.mapEMC();

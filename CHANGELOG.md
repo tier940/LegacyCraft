@@ -1,3 +1,31 @@
+# v2.2.1
+## Update mods
+- BuildCraft RF: ReFluxified
+- MixinBooter
+- ModularUI
+- Mouse Tweaks Unofficial
+- Inventory Bogo Sorter
+- LoliASM
+- Placebo
+- CraftTweaker
+- Universal Tweaks
+
+## Add mod
+- ConfigAnytime
+- RenderLib
+- Nothirium
+- Entity Culling
+- 燐/Hesperus
+
+## Remove mod
+- CraftTweaker Integration
+
+## Move mod
+- Foam​Fix -> VintageFix
+- The One Probe -> The One Probe Community Edition
+
+* * *
+
 # v2.2.0
 ## Update mods
 - LoliASM

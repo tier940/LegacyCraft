@@ -1,6 +1,10 @@
 {
-	x: -0.5d,
-	y: -1.0d,
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"ecc9461a"
+	],
+	optional: true,
 	tasks: [{
 		uid: "0edef57f",
 		type: "item",

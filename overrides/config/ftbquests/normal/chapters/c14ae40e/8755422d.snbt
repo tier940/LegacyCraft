@@ -1,11 +1,11 @@
 {
-	x: 4.0d,
-	y: 1.5d,
+	x: -5.5d,
+	y: 6.0d,
 	dependencies: [
-		"629b0096"
+		"e34e467a"
 	],
 	tasks: [{
-		uid: "f7d910c6",
+		uid: "7838002d",
 		type: "item",
 		items: [{
 			item: "buildcraftcore:engine 1 2"
