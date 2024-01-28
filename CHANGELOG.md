@@ -1,3 +1,21 @@
+# v2.2.2
+## Modpack information
+- Corrective action by [tier940/LegacyCraft#9](https://github.com/tier940/LegacyCraft/issues/9)
+
+## Update mods
+- CraftTweaker
+- Entity Culling
+- Had Enough Items
+- Inventory Bogo Sorter
+- LoliASM
+- ModularUI
+- Universal Tweaks
+- VintageFix
+
+
+
+* * *
+
 # v2.2.1
 ## Update mods
 - BuildCraft RF: ReFluxified
