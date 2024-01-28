@@ -1,3 +1,16 @@
+# v2.2.2
+## Update mods
+- CraftTweaker
+- Entity Culling
+- Had Enough Items
+- Inventory Bogo Sorter
+- LoliASM
+- ModularUI
+- Universal Tweaks
+- VintageFix
+
+* * *
+
 # v2.2.1
 ## Update mods
 - BuildCraft RF: ReFluxified
