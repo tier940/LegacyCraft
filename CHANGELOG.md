@@ -1,4 +1,7 @@
 # v2.2.2
+## Modpack information
+- Corrective action by [tier940/LegacyCraft#9](https://github.com/tier940/LegacyCraft/issues/9)
+
 ## Update mods
 - CraftTweaker
 - Entity Culling
@@ -8,6 +11,8 @@
 - ModularUI
 - Universal Tweaks
 - VintageFix
+
+
 
 * * *
 

@@ -73,7 +73,7 @@ AssemblyTable.addRecipe("Refinery Plus", <quarryplus:refineryplus>, 640000, [<bu
 AssemblyTable.addRecipe("Advanced Pump", <quarryplus:standalonepump>, 3200000, [<quarryplus:quarry> * 2, <quarryplus:pumpplus> * 2, <quarryplus:markerplus> * 3]);
 
 ## Chunk Destroyer
-AssemblyTable.addRecipe("Chunk Destroyer", <quarryplus:chunkdestroyer>, 3200000, [<quarryplus:quarry> * 3, <quarryplus:pumpplus> * 2, <quarryplus:tool:1>.withTag({HideFlags: 1}) * 2, <quarryplus:markerplus> * 3, <ore:blockDiamond> * 8, <ore:blockEmerald> * 8, <minecraft:ender_eye> * 64, <ore:netherStar> * 2, <minecraft:skull:5>]);
+AssemblyTable.addRecipe("Chunk Destroyer", <quarryplus:chunkdestroyer>, 3200000, [<quarryplus:quarry> * 3, <quarryplus:pumpplus> * 2, <quarryplus:markerplus> * 3, <ore:blockDiamond> * 8, <ore:blockEmerald> * 8, <minecraft:ender_eye> * 64, <ore:netherStar> * 2, <minecraft:skull:5>]);
 
 ## Experience Pump for Quarry
 AssemblyTable.addRecipe("Experience Pump for Quarry", <quarryplus:exppump>, 3200000, [<ore:ingotGold> * 16, <ore:ingotIron> * 48, <ore:dustRedstone> * 64, <minecraft:experience_bottle> * 2, <minecraft:hay_block> * 32, <ore:enderpearl> * 2]);
