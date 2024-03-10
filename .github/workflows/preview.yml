@@ -76,7 +76,7 @@ jobs:
           zip -r ./${{ env.NAME }}-pr-${{ env.FULL_VERSION }}-server.zip ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: "${{ env.FULL_VERSION }}"
           draft: false
