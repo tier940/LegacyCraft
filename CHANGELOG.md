@@ -1,3 +1,22 @@
+# v2.2.3
+## Revert mod
+- The One Probe Community Edition -> The One Probe
+
+## Update mods
+- ConfigAnytime
+- Controlling
+- Entity Culling
+- Had Enough Items
+- Inventory Bogo Sorter
+- LoliASM
+- MixinBooter
+- ModularUI
+- RenderLib
+- Universal Tweaks
+- VintageFix
+
+* * *
+
 # v2.2.2
 ## Modpack information
 - Corrective action by [tier940/LegacyCraft#9](https://github.com/tier940/LegacyCraft/issues/9)
@@ -11,8 +30,6 @@
 - ModularUI
 - Universal Tweaks
 - VintageFix
-
-
 
 * * *
 
