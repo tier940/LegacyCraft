@@ -1,4 +1,9 @@
 name: Deploy lwjgl3 modpack
+
+permissions:
+  contents: write
+  deployments: write
+
 on:
   push:
     tags:
