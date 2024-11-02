@@ -58,7 +58,6 @@ jobs:
           cp -rvf ./cmmc/bansoukou/ ./overrides/
           rm -Rf ./cmmc/bansoukou/
           mv -vf ./overrides/ .minecraft/
-          cp -vf ./icon.png .minecraft/
           cp -rvf ./cmmc/* ./
           zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
@@ -66,7 +65,6 @@ jobs:
         name: Archive Release MMC (NORMAL)
         run: |
           mv -vf ./overrides/ .minecraft/
-          cp -vf ./icon.png .minecraft/
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
