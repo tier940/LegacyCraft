@@ -13,6 +13,11 @@ JEI.removeAndHide(<akutoengine:kleinstarex>);
 ## Klein Star Jupiter
 JEI.removeAndHide(<akutoengine:kleinstarex:1>);
 
+# Project EX
+## The Final Star
+JEI.removeAndHide(<projectex:final_star>);
+
+
 
 ########################################
 # Blocks
