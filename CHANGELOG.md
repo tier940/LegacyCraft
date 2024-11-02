@@ -1,3 +1,26 @@
+# 2.3.0
+## Remove mods
+- Nothirium
+
+## Move mods
+- FTB Backups (1220.9.0.15) -> Advanced Backups (3.6.3)
+- RandomPatches (1.22.1.10) -> Valkyrie (0.2)
+- Resource Loader (1.5.3) -> TX Loader (1.5.1)
+- 燐/Hesperus (0.2.9.3) -> Alfheim Lighting Engine (1.4)
+
+## Update mods
+- ConfigAnytime (2.0 -> 3.0)
+- Controlling (3.0.12.3 -> 3.0.12.3)
+- CraftTweaker (4.1.20.698 -> 4.1.20.700)
+- RenderLib (1.3.4 -> 1.3.5)
+- Universal Tweaks (1.10.0 -> 1.13.0)
+- VintageFix (0.4.1 -> 0.5.1)
+
+## New mods
+- StellarCore (1.5.13)
+
+* * *
+
 # v2.2.3
 ## Revert mod
 - The One Probe Community Edition -> The One Probe
