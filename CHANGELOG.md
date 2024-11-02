@@ -22,6 +22,8 @@
 - VintageFix (0.4.1 -> 0.5.1)
 
 ## New mods
+- Particle Culling (1.4.3)
+- Red Core (0.5.1)
 - StellarCore (1.5.13)
 
 * * *
