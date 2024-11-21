@@ -49,7 +49,6 @@ jobs:
         run: |
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
 
       - if: matrix.version == 'LWJGL3'
         name: Remove lwjgl3 not supported mods
@@ -95,7 +94,6 @@ jobs:
           rm -vf .minecraft/mods/!Red-Core-*
           rm -vf .minecraft/mods/Alfheim-*
           rm -vf .minecraft/mods/Valkyrie-*
-          rm -vf .minecraft/mods/CraftPresence-*
           rm -vf .minecraft/mods/Controlling-*
           rm -vf .minecraft/mods/UniLib-*
           rm -vf .minecraft/mods/Fixeroo-*
