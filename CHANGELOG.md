@@ -7,12 +7,15 @@
 - RandomPatches (1.22.1.10) -> Valkyrie (0.2)
 - Resource Loader (1.5.3) -> TX Loader (1.5.1)
 - 燐/Hesperus (0.2.9.3) -> Alfheim Lighting Engine (1.4)
+- Clumps (3.1.2) -> Fixeroo (2.3.2)
 
 ## Update mods
+- Advanced Backups (3.6.3 -> 3.6.4)
 - ConfigAnytime (2.0 -> 3.0)
 - Controlling (3.0.12.3 -> 3.0.12.3)
 - CraftTweaker (4.1.20.698 -> 4.1.20.700)
-- Had Enough Items (4.25.2 -> 4.26.1)
+- Had Enough Items (4.25.2 -> 4.26.2)
+- IC2 Classic (1.5.8 -> 1.5.11)
 - JourneyMap (5.7.1 -> 5.7.1p3)
 - LoliASM (5.19 -> 5.20)
 - MixinBooter (8.6 -> 9.4)
@@ -24,7 +27,7 @@
 ## New mods
 - Particle Culling (1.4.3)
 - Red Core (0.5.1)
-- StellarCore (1.5.13)
+- StellarCore (1.5.20)
 
 * * *
 
