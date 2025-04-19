@@ -4,14 +4,14 @@
 	dependencies: [
 		"82a8bcca"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "6e38f9d5",
 		type: "item",
 		items: [{
 			item: "emcbaubles:collector_mk6_necklace"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

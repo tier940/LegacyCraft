@@ -4,14 +4,14 @@
 	dependencies: [
 		"c5b40c11"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "ca647280",
 		type: "item",
 		items: [{
 			item: "ironchest:iron_gold_chest_upgrade"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

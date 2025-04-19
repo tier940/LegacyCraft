@@ -4,15 +4,15 @@
 	dependencies: [
 		"cf550426"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "d692243e",
 		type: "item",
 		items: [{
 			item: "emcbaubles:collector_mk11_necklace"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

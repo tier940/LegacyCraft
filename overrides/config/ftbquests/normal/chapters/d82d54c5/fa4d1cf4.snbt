@@ -7,6 +7,6 @@
 		items: [{
 			item: "projecte:alchemical_chest"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

@@ -12,6 +12,6 @@
 		items: [{
 			item: "projectex:collector 1 15"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

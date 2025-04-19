@@ -12,6 +12,6 @@
 			item: "ic2:itemdrills"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

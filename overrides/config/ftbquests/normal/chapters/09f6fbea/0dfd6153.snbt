@@ -12,7 +12,7 @@
 		items: [{
 			item: "ic2:itemmisc 1 451"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}],
 	rewards: [{
 		uid: "f5eadb10",

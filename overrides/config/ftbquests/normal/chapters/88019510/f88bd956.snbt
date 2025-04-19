@@ -1,16 +1,16 @@
 {
-	x: 1.0d,
-	y: -3.5d,
+	x: 0.0d,
+	y: -1.5d,
 	dependencies: [
 		"a5cbce63"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "e00c809e",
 		type: "item",
 		items: [{
 			item: "logisticspipes:pipe_request_mk2"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

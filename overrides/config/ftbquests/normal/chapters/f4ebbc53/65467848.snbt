@@ -4,14 +4,14 @@
 	dependencies: [
 		"69b4251e"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "7f99e46b",
 		type: "item",
 		items: [{
 			item: "ironchest:diamond_obsidian_chest_upgrade"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

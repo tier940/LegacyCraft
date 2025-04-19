@@ -7,13 +7,13 @@
 		"8dcfc675"
 	],
 	dependency_requirement: "one_started",
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "742a9564",
 		type: "item",
 		items: [{
 			item: "peex:relays/relaymk4"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

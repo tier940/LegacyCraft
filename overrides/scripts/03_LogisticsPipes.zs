@@ -7,8 +7,7 @@ import mods.jei.JEI;
 # Items
 ########################################
 # Logistics Pipes' Guide Book
-recipes.remove(<logisticspipes:guide_book>);
-mods.jei.JEI.hide(<logisticspipes:guide_book>);
+mods.jei.JEI.removeAndHide(<logisticspipes:guide_book>);
 
 # Nano Hopper
 mods.jei.JEI.hide(<logisticspipes:parts:3>);
@@ -23,28 +22,22 @@ mods.jei.JEI.hide(<logisticspipes:item_card>);
 mods.jei.JEI.hide(<logisticspipes:upgrade_logic_controller>);
 
 # Raw Basic Chip
-recipes.remove(<logisticspipes:chip_basic_raw>);
-mods.jei.JEI.hide(<logisticspipes:chip_basic_raw>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_basic_raw>);
 
 # Basic Chip
-furnace.remove(<logisticspipes:chip_basic>);
-mods.jei.JEI.hide(<logisticspipes:chip_basic>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_basic>);
 
 # Raw Advanced Chip
-recipes.remove(<logisticspipes:chip_advanced_raw>);
-mods.jei.JEI.hide(<logisticspipes:chip_advanced_raw>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_advanced_raw>);
 
 # Advanced Chip
-furnace.remove(<logisticspipes:chip_advanced>);
-mods.jei.JEI.hide(<logisticspipes:chip_advanced>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_advanced>);
 
 # Raw FPGA Chip
-recipes.remove(<logisticspipes:chip_fpga_raw>);
-mods.jei.JEI.hide(<logisticspipes:chip_fpga_raw>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_fpga_raw>);
 
 # FPGA Chip
-furnace.remove(<logisticspipes:chip_fpga>);
-mods.jei.JEI.hide(<logisticspipes:chip_fpga>);
+mods.jei.JEI.removeAndHide(<logisticspipes:chip_fpga>);
 
 # Pipe Controller
 recipes.remove(<logisticspipes:pipe_controller>);
@@ -62,8 +55,7 @@ recipes.addShaped(<logisticspipes:pipe_manager>, [
 ]);
 
 # Logistics programmer
-recipes.remove(<logisticspipes:logistics_programmer>);
-mods.jei.JEI.hide(<logisticspipes:logistics_programmer>);
+mods.jei.JEI.removeAndHide(<logisticspipes:logistics_programmer>);
 
 # Logistics HUD Glasses
 recipes.addShaped(<logisticspipes:hud_glasses>, [
@@ -447,7 +439,7 @@ recipes.addShaped(<logisticspipes:upgrade_item_stack_extraction>, [
 ]);
 
 # MJ Power Supplier Upgrade
-recipes.addShapeless(<logisticspipes:upgrade_power_supplier_mj>, [<logisticspipes:upgrade_power_supplier_rf>]);
+mods.jei.JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_mj>);
 
 # RF Power Supplier Upgrade
 recipes.addShaped(<logisticspipes:upgrade_power_supplier_rf>, [
@@ -455,7 +447,6 @@ recipes.addShaped(<logisticspipes:upgrade_power_supplier_rf>, [
     [<buildcraftsilicon:redstone_chipset:2>, <logisticspipes:upgrade_power_transportation>, <buildcraftsilicon:redstone_chipset:2>],
     [<minecraft:paper>, <buildcraftsilicon:redstone_chipset:1>, <minecraft:paper>]
 ]);
-recipes.addShapeless(<logisticspipes:upgrade_power_supplier_rf>, [<logisticspipes:upgrade_power_supplier_mj>]);
 
 # EU LV Power Supplier Upgrade
 recipes.addShaped(<logisticspipes:upgrade_power_supplier_eu_lv>, [
@@ -769,8 +760,7 @@ recipes.addShaped(<logisticspipes:pipe_fluid_terminus>, [
 ]);
 
 # Logistics Block Frame
-recipes.remove(<logisticspipes:frame>);
-mods.jei.JEI.hide(<logisticspipes:frame>);
+mods.jei.JEI.removeAndHide(<logisticspipes:frame>);
 
 # Logistics Crafting Table
 recipes.remove(<logisticspipes:crafting_table>);
@@ -811,12 +801,10 @@ recipes.addShaped(<logisticspipes:security_station>, [
 ]);
 
 # Logistics Power Junction
-recipes.remove(<logisticspipes:power_junction>);
-mods.jei.JEI.hide(<logisticspipes:power_junction>);
+mods.jei.JEI.removeAndHide(<logisticspipes:power_junction>);
 
 # Logistics Program Compiler
-recipes.remove(<logisticspipes:program_compiler>);
-mods.jei.JEI.hide(<logisticspipes:program_compiler>);
+mods.jei.JEI.removeAndHide(<logisticspipes:program_compiler>);
 
 # Logistics Statistics Table
 recipes.remove(<logisticspipes:statistics_table>);
@@ -832,7 +820,7 @@ recipes.addShaped(<logisticspipes:statistics_table>, [
 ]);
 
 # MJ Power Provider
-recipes.addShapeless(<logisticspipes:power_provider_mj>, [<logisticspipes:power_provider_rf>]);
+mods.jei.JEI.removeAndHide(<logisticspipes:power_provider_mj>);
 
 # RF Power Provider
 recipes.addShaped(<logisticspipes:power_provider_rf>, [
@@ -840,7 +828,6 @@ recipes.addShaped(<logisticspipes:power_provider_rf>, [
     [<buildcraftsilicon:redstone_chipset:2>, <ore:blockRedstone>, <buildcraftsilicon:redstone_chipset:2>],
     [<minecraft:paper>, <buildcraftsilicon:redstone_chipset:1>, <minecraft:paper>]
 ]);
-recipes.addShapeless(<logisticspipes:power_provider_rf>, [<logisticspipes:power_provider_mj>]);
 
 # EU Power Provider
 recipes.addShaped(<logisticspipes:power_provider_eu>, [

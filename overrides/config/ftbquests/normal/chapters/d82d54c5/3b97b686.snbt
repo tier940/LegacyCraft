@@ -6,13 +6,13 @@
 		"82a8bcca"
 	],
 	dependency_requirement: "one_started",
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "f76dfff4",
 		type: "item",
 		items: [{
 			item: "projectex:collector 1 6"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

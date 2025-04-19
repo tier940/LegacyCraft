@@ -6,65 +6,65 @@
 		uid: "3e59ce13",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
-			tag: {}
+			tag: {},
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "fb681919",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
+			tag: {},
 			Damage: 1s,
-			tag: {}
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "f9a6c2f0",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
+			tag: {},
 			Damage: 2s,
-			tag: {}
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "ca83d6d7",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
+			tag: {},
 			Damage: 3s,
-			tag: {}
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "65495b45",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
+			tag: {},
 			Damage: 4s,
-			tag: {}
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "bf6d4edd",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_klein_star",
+			tag: {},
 			Damage: 5s,
-			tag: {}
+			id: "projecte:item.pe_klein_star"
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }
