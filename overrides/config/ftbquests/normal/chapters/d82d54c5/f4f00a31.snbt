@@ -4,13 +4,13 @@
 	dependencies: [
 		"d60bccca"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "20bdcfb5",
 		type: "item",
 		items: [{
 			item: "projectex:collector 1 12"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

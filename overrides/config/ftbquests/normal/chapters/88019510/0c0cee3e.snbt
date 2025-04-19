@@ -1,5 +1,5 @@
 {
-	x: 3.0d,
+	x: 5.0d,
 	y: 0.0d,
 	dependency_requirement: "one_started",
 	tasks: [{
@@ -8,6 +8,6 @@
 		items: [{
 			item: "logisticspipes:pipe_basic"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

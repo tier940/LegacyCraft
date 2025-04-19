@@ -1,9 +1,9 @@
 {
 	title: "Logistics HUD Glasses",
 	icon: "logisticspipes:hud_glasses",
-	x: -0.5d,
-	y: -1.0d,
-	optional: true,
+	x: 3.0d,
+	y: -3.0d,
+	optional: 1b,
 	tasks: [{
 		uid: "c069d3a2",
 		type: "item",
@@ -11,7 +11,7 @@
 			item: "logisticspipes:parts"
 		}],
 		count: 2L,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "55e95510",
@@ -20,7 +20,7 @@
 			item: "logisticspipes:parts 1 1"
 		}],
 		count: 2L,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "37433bd0",
@@ -28,6 +28,6 @@
 		items: [{
 			item: "logisticspipes:parts 1 2"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

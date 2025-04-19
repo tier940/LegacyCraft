@@ -12,15 +12,5 @@
     "ledger.owner.is_open": {
       "boolean": false
     }
-  },
-  "buildcraftlib:engine": {
-    "ledger.power.is_open": {
-      "boolean": false
-    }
-  },
-  "buildcraftsilicon:all_tables": {
-    "ledger.power.is_open": {
-      "boolean": true
-    }
   }
 }

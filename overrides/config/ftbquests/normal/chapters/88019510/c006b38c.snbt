@@ -1,0 +1,29 @@
+{
+	icon: "logisticspipes:power_provider_rf",
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"0c0cee3e"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "0a76d4fc",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_provider_rf"
+		}]
+	},
+	{
+		uid: "c3dd5e8e",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_power_supplier_rf"
+		}]
+	}],
+	rewards: [{
+		uid: "ff2d9a71",
+		type: "item",
+		item: "logisticspipes:upgrade_power_supplier_rf",
+		count: 7
+	}]
+}

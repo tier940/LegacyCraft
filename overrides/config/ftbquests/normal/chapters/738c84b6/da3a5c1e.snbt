@@ -10,7 +10,7 @@
 		items: [{
 			item: "ic2:itembatre"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}],
 	rewards: [{
 		uid: "c98c8a0f",

@@ -1,6 +1,6 @@
 {
-	x: 5.0d,
-	y: -2.0d,
+	x: 7.0d,
+	y: -1.5d,
 	dependencies: [
 		"0c0cee3e"
 	],
@@ -10,6 +10,6 @@
 		items: [{
 			item: "logisticspipes:pipe_satellite"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

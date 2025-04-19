@@ -7,6 +7,6 @@
 		items: [{
 			item: "buildcraftfactory:tank"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

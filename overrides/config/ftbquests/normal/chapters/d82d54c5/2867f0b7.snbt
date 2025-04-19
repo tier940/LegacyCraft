@@ -4,13 +4,13 @@
 	dependencies: [
 		"e4765681"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "8101b9c5",
 		type: "item",
 		items: [{
 			item: "peex:aegu/aegumk3_off"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

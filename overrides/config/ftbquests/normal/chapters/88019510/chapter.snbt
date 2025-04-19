@@ -1,11 +1,11 @@
 {
 	title: "{quests.storage.logi}",
 	icon: "logisticspipes:pipe_basic",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: -185877421,
 	default_quest_shape: "",
 	images: [{
-		x: 6.5d,
+		x: 8.5d,
 		y: 0.0d,
 		width: 2.0d,
 		height: 2.0d,
@@ -13,6 +13,17 @@
 		image: "modpack:textures/lp/isc.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
+	},
+	{
+		x: 0.0d,
+		y: 2.0d,
+		width: 4.0d,
+		height: 2.5d,
+		rotation: 90.0d,
+		image: "modpack:textures/lp/bc_lp_eng.png",
+		hover: [],
+		click: "",
+		dev: 0b
 	}]
 }

@@ -4,14 +4,14 @@
 	dependencies: [
 		"ccebf7d9"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "5d9ded56",
 		type: "item",
 		items: [{
 			item: "ironchest:copper_silver_chest_upgrade"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

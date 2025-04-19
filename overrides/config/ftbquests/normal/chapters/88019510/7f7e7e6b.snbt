@@ -1,16 +1,16 @@
 {
-	x: -2.5d,
+	x: -2.0d,
 	y: 0.0d,
 	dependencies: [
 		"0c0cee3e"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "287eff73",
 		type: "item",
 		items: [{
 			item: "logisticspipes:pipe_fluid_basic"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

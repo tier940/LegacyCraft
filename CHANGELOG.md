@@ -1,3 +1,23 @@
+# 2.4.0
+## Move mods
+- BuildCraft RF: ReFluxified (2.1.4) -> BuildCraft (8.0.0)
+- The One Probe (1.4.28) -> The One Probe Community Edition (1.3.5-fix2)
+- TOP Addons (1.13.0) -> TopAllDependents (1.3)
+
+## Update mods
+- Advanced Backups (3.6.4 -> 3.7.1)
+- Entity Culling (6.4.3 -> 6.5.0)
+- Fixeroo (2.3.2 -> 2.3.5-hotfix.1)
+- Had Enough Items (4.25.5 -> 4.27.3)
+- LoliASM (5.20 -> 5.28)
+- Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
+- RenderLib (1.3.5 -> 1.4.3)
+- StellarCore (1.5.20 -> 1.5.21)
+- Universal Tweaks (1.13.0 -> 1.14.0)
+- VintageFix (0.5.1 -> 0.5.6)
+
+* * *
+
 # 2.3.0
 ## Remove mods
 - Nothirium

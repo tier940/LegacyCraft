@@ -4,13 +4,13 @@
 	dependencies: [
 		"ecc9461a"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "0edef57f",
 		type: "item",
 		items: [{
 			item: "enderstorage:ender_storage"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

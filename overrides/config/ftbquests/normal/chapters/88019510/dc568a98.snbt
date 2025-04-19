@@ -1,16 +1,16 @@
 {
-	x: -4.0d,
+	x: -3.5d,
 	y: 0.0d,
 	dependencies: [
 		"7f7e7e6b"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "f7c8d48d",
 		type: "item",
 		items: [{
 			item: "logisticspipes:pipe_fluid_insertion"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

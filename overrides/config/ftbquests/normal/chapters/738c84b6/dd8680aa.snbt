@@ -11,6 +11,6 @@
 		items: [{
 			item: "ic2:blockelectric"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

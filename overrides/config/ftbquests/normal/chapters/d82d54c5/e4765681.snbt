@@ -10,6 +10,6 @@
 		items: [{
 			item: "projecte:condenser_mk2"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

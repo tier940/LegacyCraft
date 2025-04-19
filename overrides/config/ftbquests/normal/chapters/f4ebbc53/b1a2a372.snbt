@@ -4,14 +4,14 @@
 	dependencies: [
 		"c6a3058a"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "da4be6d6",
 		type: "item",
 		items: [{
 			item: "ironchest:wood_iron_chest_upgrade"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

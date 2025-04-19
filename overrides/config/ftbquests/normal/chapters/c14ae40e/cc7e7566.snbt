@@ -4,13 +4,13 @@
 	dependencies: [
 		"23150dbb"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "e4f8d99c",
 		type: "item",
 		items: [{
 			item: "akutoengine:akutoengine 1 6"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

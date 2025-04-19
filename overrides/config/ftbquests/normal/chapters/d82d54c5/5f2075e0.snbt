@@ -5,11 +5,11 @@
 		uid: "39ff274f",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_philosophers_stone",
-			tag: {}
+			tag: {},
+			id: "projecte:item.pe_philosophers_stone"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

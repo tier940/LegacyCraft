@@ -10,6 +10,6 @@
 		items: [{
 			item: "ic2:blockrubwood"
 		}],
-		only_from_crafting: false
+		only_from_crafting: 0b
 	}]
 }

@@ -4,13 +4,13 @@
 	dependencies: [
 		"cf550426"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "bd3a6a09",
 		type: "item",
 		items: [{
 			item: "projectex:collector 1 11"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

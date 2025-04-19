@@ -2,14 +2,14 @@
 	title: "Covalence Dusts",
 	x: 8.5d,
 	y: 1.0d,
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "16624ece",
 		type: "item",
 		items: [{
 			item: "projecte:item.pe_covalence_dust"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "10cbc429",
@@ -17,7 +17,7 @@
 		items: [{
 			item: "projecte:item.pe_covalence_dust 1 1"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "1de0ef2e",
@@ -25,14 +25,14 @@
 		items: [{
 			item: "projecte:item.pe_covalence_dust 1 2"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}],
 	rewards: [{
 		uid: "d27a7e41",
 		type: "item",
 		item: {
-			id: "projecte:item.pe_divining_rod_3",
-			tag: {}
+			tag: {},
+			id: "projecte:item.pe_divining_rod_3"
 		},
 		count: 10
 	}]

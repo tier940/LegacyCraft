@@ -10,6 +10,6 @@
 		items: [{
 			item: "peex:collectors/collectormk10"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

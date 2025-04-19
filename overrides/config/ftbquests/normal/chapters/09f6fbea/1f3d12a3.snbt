@@ -4,13 +4,13 @@
 	dependencies: [
 		"7e54a13f"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "cf2f9469",
 		type: "item",
 		items: [{
 			item: "ic2:itemcable 1 15"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

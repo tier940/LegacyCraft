@@ -4,7 +4,7 @@
 	dependencies: [
 		"10691aa9"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "a70d744f",
 		type: "item",

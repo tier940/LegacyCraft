@@ -7,6 +7,6 @@
 		items: [{
 			item: "minecraft:chest"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

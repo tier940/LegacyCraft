@@ -11,6 +11,6 @@
 		items: [{
 			item: "multipagechest:multipagechest"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

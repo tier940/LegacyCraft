@@ -1,16 +1,16 @@
 {
-	x: 1.0d,
+	x: 3.0d,
 	y: 2.0d,
 	dependencies: [
 		"0c0cee3e"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "ccd53a32",
 		type: "item",
 		items: [{
 			item: "logisticspipes:pipe_chassis_mk5"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

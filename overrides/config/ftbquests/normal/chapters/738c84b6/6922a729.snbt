@@ -4,13 +4,13 @@
 	dependencies: [
 		"045fb2c4"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "4ae1eb5c",
 		type: "item",
 		items: [{
 			item: "ic2:blockgenerator 1 1"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

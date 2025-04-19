@@ -7,6 +7,6 @@
 		items: [{
 			item: "ic2:blockelectric 1 8"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

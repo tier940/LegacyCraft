@@ -4,13 +4,13 @@
 	dependencies: [
 		"cc7e7566"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "c72065df",
 		type: "item",
 		items: [{
 			item: "akutoengine:akutoengine 1 7"
 		}],
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }

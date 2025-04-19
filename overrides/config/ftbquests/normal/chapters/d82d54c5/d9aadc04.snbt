@@ -9,66 +9,66 @@
 		uid: "53fafb67",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_ein",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_ein"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "9ec6f97e",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_zwei",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_zwei"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "abe6f70d",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_drei",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_drei"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "857f31d7",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_vier",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_vier"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "8ca382ca",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_sphere",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_sphere"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	},
 	{
 		uid: "bfcd26e1",
 		type: "item",
 		items: [{
-			id: "projectex:colossal_star_omega",
-			tag: {}
+			tag: {},
+			id: "projectex:colossal_star_omega"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b,
-		only_from_crafting: true
+		only_from_crafting: 1b
 	}]
 }
