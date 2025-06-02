@@ -1,4 +1,8 @@
 # 2.4.1
+## New mods
+- Better Builder's Wands (0.13.2)
+- EMC Builders Wand (1.9)
+
 ## Update mods
 - Fixeroo (2.3.5-hotfix.1 -> 2.3.6b)
 - IC2 Classic (1.5.11 -> 1.5.13)
