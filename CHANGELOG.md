@@ -1,3 +1,14 @@
+# 2.4.1
+## Update mods
+- Fixeroo (2.3.5-hotfix.1 -> 2.3.6b)
+- IC2 Classic (1.5.11 -> 1.5.13)
+- RenderLib (1.4.3 -> 1.4.5)
+- StellarCore (1.5.21 -> 1.5.22)
+- TopAllDependents (1.3 -> 1.4)
+- VintageFix (0.5.6 -> 0.6.1)
+
+* * *
+
 # 2.4.0
 ## Move mods
 - BuildCraft RF: ReFluxified (2.1.4) -> BuildCraft (8.0.0)
@@ -9,7 +20,7 @@
 - Entity Culling (6.4.3 -> 6.5.0)
 - Fixeroo (2.3.2 -> 2.3.5-hotfix.1)
 - Had Enough Items (4.25.5 -> 4.27.3)
-- LoliASM (5.20 -> 5.28)
+- CensoredASM (5.20 -> 5.28)
 - Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
 - RenderLib (1.3.5 -> 1.4.3)
 - StellarCore (1.5.20 -> 1.5.21)
@@ -37,7 +48,7 @@
 - Had Enough Items (4.25.2 -> 4.26.2)
 - IC2 Classic (1.5.8 -> 1.5.11)
 - JourneyMap (5.7.1 -> 5.7.1p3)
-- LoliASM (5.19 -> 5.20)
+- CensoredASM (5.19 -> 5.20)
 - MixinBooter (8.6 -> 9.4)
 - ModularUI (2.4.2 -> 2.4.3)
 - RenderLib (1.3.4 -> 1.3.5)
@@ -61,7 +72,7 @@
 - Entity Culling
 - Had Enough Items
 - Inventory Bogo Sorter
-- LoliASM
+- CensoredASM
 - MixinBooter
 - ModularUI
 - RenderLib
@@ -79,7 +90,7 @@
 - Entity Culling
 - Had Enough Items
 - Inventory Bogo Sorter
-- LoliASM
+- CensoredASM
 - ModularUI
 - Universal Tweaks
 - VintageFix
@@ -93,7 +104,7 @@
 - ModularUI
 - Mouse Tweaks Unofficial
 - Inventory Bogo Sorter
-- LoliASM
+- CensoredASM
 - Placebo
 - CraftTweaker
 - Universal Tweaks
@@ -116,7 +127,7 @@
 
 # v2.2.0
 ## Update mods
-- LoliASM
+- CensoredASM
 - Had Enough Items
 - IC2 Classic
 - Inventory Bogo Sorter
