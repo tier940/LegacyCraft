@@ -146,7 +146,7 @@ jobs:
           tag_name: ${{ env.VERSION_NORMAL }}
           name: "Modpack ${{ env.VERSION_NORMAL }}"
           body: |
-            ## LegacyCraft - ${{ github.event.inputs.release_type | capitalize }} Release
+            ## LegacyCraft - ${{ env.VERSION_NORMAL }}
 
             This preview includes:
             - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
