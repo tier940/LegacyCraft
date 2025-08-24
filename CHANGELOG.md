@@ -1,3 +1,16 @@
+# 2.4.2
+## Modpack information
+- Fixed an issue where it could not be launched with Java 21.
+- The file is available on GitHub.
+> https://github.com/tier940/LegacyCraft/releases
+
+## Update mods
+- CensoredASM (5.28 -> 5.29)
+- The One Probe Community Edition (1.3.5-fix2 -> 1.3.5-fix3)
+- VintageFix (0.6.1 -> 0.6.2)
+
+* * *
+
 # 2.4.1
 ## New mods
 - Better Builder's Wands (0.13.2)
