@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:collector_mk1"
+      },
+      "name:8": "Energy Collector MK1",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:collector_mk1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

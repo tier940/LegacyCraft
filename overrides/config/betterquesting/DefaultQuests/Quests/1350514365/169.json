@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "logisticspipes:pipe_chassis_mk4"
+      },
+      "name:8": "Logistics Chassis Mk4",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 169,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "logisticspipes:pipe_chassis_mk4"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

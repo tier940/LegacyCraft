@@ -1,3 +1,29 @@
+# 2.5.0
+## Disable mods
+- Advanced Backups
+
+## Move mods
+- FTB Quests -> Better Questing Unofficial (4.2.6)
+
+## Remove mods
+- NetherPortalFix
+- Valkyrie
+- Item Filters
+- FTB Utilities
+- FTB Library
+
+## Update mods
+- Alfheim Lighting Engine (1.4 -> 1.6)
+- Had Enough Items (4.27.0 -> 4.29.8)
+- Inventory Bogo Sorter (1.4.8 -> 1.4.11)
+- MixinBooter (9.4 -> 10.6)
+- ModularUI (2.4.3 -> 2.5.1)
+- Red Core (0.5.1 -> 0.7)
+- The One Probe Community Edition (1.3.5-fix3 -> 1.3.5-fix4)
+- Universal Tweaks (1.14.0 -> 1.16.0.1)
+
+* * *
+
 # 2.4.2
 ## Modpack information
 - Fixed an issue where it could not be launched with Java 21.

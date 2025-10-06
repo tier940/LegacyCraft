@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projectex:magnum_star_ein",
+        "tag:10": {}
+      },
+      "name:8": "Magnum Star",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 140,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_ein",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_zwei",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_drei",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_vier",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_sphere",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "projectex:magnum_star_omega",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
