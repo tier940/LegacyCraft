@@ -9,7 +9,7 @@
         "Damage:2": 8,
         "id:8": "ic2:blockelectric"
       },
-      "name:8": "{modpack.tech.ic2.lv.title}"
+      "name:8": "lc.tech.ic2.lv.title"
     }
   },
   "quests:9": {

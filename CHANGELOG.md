@@ -17,7 +17,7 @@
 - Had Enough Items (4.27.0 -> 4.29.8)
 - Inventory Bogo Sorter (1.4.8 -> 1.4.11)
 - MixinBooter (9.4 -> 10.6)
-- ModularUI (2.4.3 -> 2.5.1)
+- ModularUI (2.4.3 -> 2.5.0-rc6)
 - Red Core (0.5.1 -> 0.7)
 - The One Probe Community Edition (1.3.5-fix3 -> 1.3.5-fix4)
 - Universal Tweaks (1.14.0 -> 1.16.0.1)

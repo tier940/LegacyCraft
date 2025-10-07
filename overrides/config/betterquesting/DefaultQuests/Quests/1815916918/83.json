@@ -12,27 +12,15 @@
     }
   },
   "questID:3": 83,
-  "rewards:9": {
-    "0:10": {
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "projecte:item.pe_time_watch",
-          "tag:10": {}
-        }
-      }
-    }
-  },
   "tasks:9": {
     "0:10": {
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
-          "id:8": "projectex:matter"
+          "id:8": "projecte:item.pe_time_watch",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"

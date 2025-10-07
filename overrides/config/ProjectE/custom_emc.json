@@ -233,10 +233,6 @@
       "emc": 0
     },
     {
-      "item": "projecte:item.pe_time_watch|0",
-      "emc": 1000000000
-    },
-    {
       "item": "peex:aegu/aegumk3_off|0",
       "emc": 788353456
     }

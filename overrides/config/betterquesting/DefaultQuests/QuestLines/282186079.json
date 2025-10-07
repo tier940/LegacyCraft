@@ -8,7 +8,7 @@
         "Count:3": 1,
         "id:8": "minecraft:chest"
       },
-      "name:8": "{modpack.storage.title}"
+      "name:8": "lc.storage.title"
     }
   },
   "quests:9": {
