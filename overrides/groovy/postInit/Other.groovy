@@ -1,0 +1,45 @@
+// ########################################
+// # Blocks
+// ########################################
+// Ender Chest
+crafting.removeByOutput(item('enderstorage:ender_storage'))
+crafting.shapedBuilder()
+        .name('ender_chest')
+        .output(item('enderstorage:ender_storage'))
+        .row('RWR')
+        .row('OCO')
+        .row('RPR')
+        .key('R', item('minecraft:blaze_rod'))
+        .key('W', item('minecraft:wool'))
+        .key('P', item('minecraft:ender_pearl'))
+        .key('O', item('minecraft:obsidian'))
+        .key('C', item('ironchest:iron_chest', 6))
+        .register()
+
+// Ender Tank
+crafting.removeByOutput(item('enderstorage:ender_storage', 1))
+crafting.shapedBuilder()
+        .name('ender_tank')
+        .output(item('enderstorage:ender_storage', 1))
+        .row('RWR')
+        .row('OTO')
+        .row('RPR')
+        .key('R', item('minecraft:blaze_rod'))
+        .key('W', item('minecraft:wool'))
+        .key('P', item('minecraft:ender_pearl'))
+        .key('O', item('minecraft:obsidian'))
+        .key('T', item('irontanks:obsidian_tank'))
+        .register()
+
+// Multi Page Chest
+crafting.removeByOutput(item('multipagechest:multipagechest'))
+crafting.shapedBuilder()
+        .name('multipage_chest')
+        .output(item('multipagechest:multipagechest'))
+        .row('DWD')
+        .row('WCW')
+        .row('DWD')
+        .key('D', item('ironchest:iron_chest', 2))
+        .key('W', ore('plankWood'))
+        .key('C', ore('chestWood'))
+        .register()

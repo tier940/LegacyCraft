@@ -25,9 +25,14 @@ JEI.removeAndHide(<projectex:final_star>);
 # ProjectE
 ## Watch
 recipes.remove(<projecte:item.pe_time_watch>);
+recipes.addShaped(<projecte:item.pe_time_watch>, [
+    [<projectex:matter:7>, <minecraft:glowstone>, <projectex:matter:7>],
+    [<minecraft:obsidian>, <minecraft:clock>, <minecraft:obsidian>],
+    [<projectex:matter:7>, <minecraft:glowstone>, <projectex:matter:7>]
+]);
 
 # Project EX
-# Collectors for PEEX
+## Collectors for PEEX
 recipes.addShapeless(<projectex:collector:3>, [<peex:collectors/collectormk4>]);
 recipes.addShapeless(<projectex:collector:4>, [<peex:collectors/collectormk5>]);
 recipes.addShapeless(<projectex:collector:5>, [<peex:collectors/collectormk6>]);
@@ -37,7 +42,7 @@ recipes.addShapeless(<projectex:collector:8>, [<peex:collectors/collectormk9>]);
 recipes.addShapeless(<projectex:collector:9>, [<peex:collectors/collectormk10>]);
 
 # PEEX
-# EMC Baubles
+## EMC Baubles
 recipes.addShapeless(<peex:collectors/collectormk4>, [<emcbaubles:collector_mk4_necklace>]);
 recipes.addShapeless(<peex:collectors/collectormk5>, [<emcbaubles:collector_mk5_necklace>]);
 recipes.addShapeless(<peex:collectors/collectormk6>, [<emcbaubles:collector_mk6_necklace>]);
