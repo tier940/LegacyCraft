@@ -69,7 +69,7 @@ wheels = [
 ]
 
 [[package]]
-name = "gte2-buildtools"
+name = "lc-buildtools"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
