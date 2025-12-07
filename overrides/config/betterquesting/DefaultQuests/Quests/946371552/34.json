@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    33
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ic2:itemtoolwrenchelectric"
+      },
+      "name:8": "Electric Wrench"
+    }
+  },
+  "questID:3": 34,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ic2:itemtoolwrenchelectric"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

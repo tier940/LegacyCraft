@@ -1,0 +1,90 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Necklace"
+    }
+  },
+  "questID:3": 1980729109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk1_necklace"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk2_necklace"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk3_necklace"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk4_necklace"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk5_necklace"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk6_necklace"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk7_necklace"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk8_necklace"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk9_necklace"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk10_necklace"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk11_necklace"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk12_necklace"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk13_necklace"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk14_necklace"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk15_necklace"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk16_necklace"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

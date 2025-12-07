@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    56,
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "vrgenerator:visibleraysolar"
+      },
+      "name:8": "VisibleRay Generator 512 EU/t"
+    }
+  },
+  "questID:3": 57,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "vrgenerator:visibleraysolar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

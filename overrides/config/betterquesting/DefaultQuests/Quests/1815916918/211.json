@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projectex:final_star_shard"
+      },
+      "name:8": "The Final Star Shard"
+    }
+  },
+  "questID:3": 211,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projectex:final_star_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

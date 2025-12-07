@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    141
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "emcbaubles:collector_mk16_necklace"
+      },
+      "name:8": "Final Collector Necklace"
+    }
+  },
+  "questID:3": 102,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "emcbaubles:collector_mk16_necklace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

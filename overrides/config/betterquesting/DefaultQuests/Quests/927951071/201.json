@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    65
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcraftcore:gear_iron"
+      },
+      "name:8": "Iron Gear"
+    }
+  },
+  "questID:3": 201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftcore:gear_iron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

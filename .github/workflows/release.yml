@@ -8,12 +8,12 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Modpack version'
+        description: "Modpack version"
         required: true
       release_type:
-        description: 'Release type'
+        description: "Release type"
         type: choice
-        default: 'release'
+        default: "release"
         options: [release, beta, alpha]
 
 env:
@@ -23,7 +23,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     strategy:
       matrix:
         buildType: [standard, lwjgl3]
@@ -34,14 +34,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Restore cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.cache/pip
-          key: ${{ runner.os }}-deps-${{ matrix.buildType }}-${{ hashFiles('**/pom.xml') }}
-
       - name: Setup Build Environment
         uses: ./.github/actions/build_setup
 
@@ -51,13 +43,13 @@ jobs:
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
         run: |
-          python buildtools/gen-lwjgl3-manifest.py
+          uv run --directory ./buildtools python ./gen-lwjgl3-manifest.py
           cp -vf cmmc/manifest.json manifest.json
 
       - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python buildtools/mod-install.py
+        run: uv run --directory ./buildtools python ./mod-install.py
 
       - name: Clean up placeholder files
         run: find . -name ".gitkeep" -delete
@@ -66,11 +58,9 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/bansoukou/ ./overrides/
-            rm -Rf cmmc/bansoukou/
             mv -vf overrides/ .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
@@ -78,7 +68,7 @@ jobs:
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/Valkyrie-*
+            rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*
             rm -vf .minecraft/mods/Fixeroo-*
@@ -91,7 +81,6 @@ jobs:
             rm -vf .minecraft/mods/InGameInfoXML-*
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
-            rm -vf .minecraft/mods/vintagefix-*
             mv -vf .minecraft/* ./
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
           fi
@@ -105,7 +94,7 @@ jobs:
 
   release:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
 
@@ -152,7 +141,7 @@ jobs:
             - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
             - **LWJGL3** (MultiMC / PrismLauncher only)
 
-            See installation guide for LWJGL3 [here](https://github.com/tier940/LegacyCraft/tree/main/cmmc).
+            See installation guide for LWJGL3 [here](https://github.com/tier940/LegacyCraft/blob/main/cmmc/README.md).
           prerelease: false
           generate_release_notes: true
           files: |

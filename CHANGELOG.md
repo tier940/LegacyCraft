@@ -1,3 +1,36 @@
+# 2.5.0
+## Disable mods
+- Advanced Backups
+
+## New mods
+- Chicken Chunks 1.8.+ (2.4.2.74)
+- Key Binding Patch (1.3.3.3)
+
+## Move mods
+- FTB Quests -> Better Questing Unofficial (4.2.6)
+
+## Remove mods
+- NetherPortalFix
+- Valkyrie
+- VintageFix
+- Item Filters
+- FTB Utilities
+- FTB Library
+
+## Update mods
+- Alfheim Lighting Engine (1.4 -> 1.6)
+- CensoredASM (5.29 -> 5.30)
+- Fixeroo (2.3.6b -> 2.3.6)
+- Had Enough Items (4.27.0 -> 4.29.12)
+- Inventory Bogo Sorter (1.4.8 -> 1.5.0)
+- MixinBooter (9.4 -> 10.7)
+- ModularUI (2.4.3 -> 3.0.5)
+- Red Core (0.5.1 -> 0.7)
+- The One Probe Community Edition (1.3.5-fix3 -> 1.3.6)
+- Universal Tweaks (1.14.0 -> 1.16.0.1)
+
+* * *
+
 # 2.4.2
 ## Modpack information
 - Fixed an issue where it could not be launched with Java 21.

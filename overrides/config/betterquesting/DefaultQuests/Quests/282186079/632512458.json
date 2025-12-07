@@ -1,0 +1,58 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Tank Upgrade"
+    }
+  },
+  "questID:3": 632512458,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:glass_copper_upgrade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:glass_iron_upgrade"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:copper_iron_upgrade"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:copper_silver_upgrade"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:iron_gold_upgrade"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:silver_gold_upgrade"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:diamond_emerald_upgrade"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "irontanks:diamond_obsidian_upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

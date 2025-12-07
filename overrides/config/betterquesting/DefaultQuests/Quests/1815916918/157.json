@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    211,
+    93
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:item.pe_tome"
+      },
+      "name:8": "Tome of Knowledge",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:item.pe_tome"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
