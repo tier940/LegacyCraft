@@ -10,8 +10,7 @@
         "Damage:2": 1,
         "id:8": "ic2:blockgenerator"
       },
-      "name:8": "Geothermal Generator",
-      "visibility:8": "ALWAYS"
+      "name:8": "Geothermal Generator"
     }
   },
   "questID:3": 204,

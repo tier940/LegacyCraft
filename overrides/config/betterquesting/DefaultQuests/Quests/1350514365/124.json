@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_fluid_satellite"
       },
-      "name:8": "Logistics Fluid Satellite Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Fluid Satellite Pipe"
     }
   },
   "questID:3": 124,

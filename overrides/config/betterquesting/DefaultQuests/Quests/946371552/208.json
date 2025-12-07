@@ -11,8 +11,7 @@
         "Damage:2": 4,
         "id:8": "ic2:blockmachinelv"
       },
-      "name:8": "Extractor",
-      "visibility:8": "ALWAYS"
+      "name:8": "Extractor"
     }
   },
   "questID:3": 208,

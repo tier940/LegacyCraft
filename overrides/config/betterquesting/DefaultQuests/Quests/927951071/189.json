@@ -6,8 +6,7 @@
         "Count:3": 1,
         "id:8": "buildcraftcore:engine"
       },
-      "name:8": "Redstone Engine",
-      "visibility:8": "ALWAYS"
+      "name:8": "Redstone Engine"
     }
   },
   "questID:3": 189,

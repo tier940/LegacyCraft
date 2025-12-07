@@ -10,8 +10,7 @@
         "Damage:2": 2,
         "id:8": "ironchest:iron_chest"
       },
-      "name:8": "Diamond Chest",
-      "visibility:8": "ALWAYS"
+      "name:8": "Diamond Chest"
     }
   },
   "questID:3": 205,

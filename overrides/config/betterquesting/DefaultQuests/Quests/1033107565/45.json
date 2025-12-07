@@ -11,8 +11,7 @@
         "Damage:2": 3,
         "id:8": "ic2:itemmisc"
       },
-      "name:8": "Tin Dust",
-      "visibility:8": "ALWAYS"
+      "name:8": "Tin Dust"
     }
   },
   "questID:3": 45,

@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_fluid_extractor"
       },
-      "name:8": "Logistics Fluid Extractor Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Fluid Extractor Pipe"
     }
   },
   "questID:3": 117,

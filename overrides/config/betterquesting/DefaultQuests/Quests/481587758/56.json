@@ -7,8 +7,7 @@
         "Damage:2": 10,
         "id:8": "ic2:blockelectric"
       },
-      "name:8": "HV-Transformer",
-      "visibility:8": "ALWAYS"
+      "name:8": "HV-Transformer"
     }
   },
   "questID:3": 56,

@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "buildcraftcore:gear_gold"
       },
-      "name:8": "Gold Gear",
-      "visibility:8": "ALWAYS"
+      "name:8": "Gold Gear"
     }
   },
   "questID:3": 71,

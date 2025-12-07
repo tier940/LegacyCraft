@@ -12,8 +12,7 @@
         "id:8": "peex:relays/relaymk4"
       },
       "name:8": "Anti-Matter Relay MK4",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 97,

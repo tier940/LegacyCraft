@@ -10,8 +10,7 @@
         "Damage:2": 1,
         "id:8": "buildcraftcore:engine"
       },
-      "name:8": "Stirling Engine",
-      "visibility:8": "ALWAYS"
+      "name:8": "Stirling Engine"
     }
   },
   "questID:3": 74,

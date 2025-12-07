@@ -10,8 +10,7 @@
         "Damage:2": 3,
         "id:8": "ironchest:iron_chest"
       },
-      "name:8": "Copper Chest",
-      "visibility:8": "ALWAYS"
+      "name:8": "Copper Chest"
     }
   },
   "questID:3": 16,

@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_provider"
       },
-      "name:8": "Provider Logistics Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Provider Logistics Pipe"
     }
   },
   "questID:3": 128,

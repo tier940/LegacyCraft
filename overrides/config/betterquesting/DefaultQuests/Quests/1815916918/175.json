@@ -11,8 +11,7 @@
         "id:8": "projecte:transmutation_table"
       },
       "name:8": "Transmutation Table",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 175,

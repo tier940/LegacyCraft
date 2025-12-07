@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_inventory_system_connector"
       },
-      "name:8": "Logistics Inventory System Connector",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Inventory System Connector"
     }
   },
   "questID:3": 120,

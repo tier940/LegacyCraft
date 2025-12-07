@@ -11,8 +11,7 @@
         "id:8": "projecte:item.pe_tome"
       },
       "name:8": "Tome of Knowledge",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 157,

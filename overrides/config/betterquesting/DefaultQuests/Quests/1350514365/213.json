@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_crafting"
       },
-      "name:8": "Crafting Logistics Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Crafting Logistics Pipe"
     }
   },
   "questID:3": 213,

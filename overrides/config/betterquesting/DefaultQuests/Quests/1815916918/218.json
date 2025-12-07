@@ -11,8 +11,7 @@
         "id:8": "projectex:collector"
       },
       "name:8": "Fading Matter Collector [MK15]",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 218,

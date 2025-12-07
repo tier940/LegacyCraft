@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "buildcraftcore:gear_stone"
       },
-      "name:8": "Stone Gear",
-      "visibility:8": "ALWAYS"
+      "name:8": "Stone Gear"
     }
   },
   "questID:3": 65,

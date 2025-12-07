@@ -10,8 +10,7 @@
         "id:8": "ic2:itemtoolchainsaw"
       },
       "name:8": "Chainsaw",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 30,

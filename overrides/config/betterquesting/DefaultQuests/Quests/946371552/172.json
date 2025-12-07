@@ -10,8 +10,7 @@
         "Damage:2": 1,
         "id:8": "ic2:itemdrills"
       },
-      "name:8": "Diamond Drill",
-      "visibility:8": "ALWAYS"
+      "name:8": "Diamond Drill"
     }
   },
   "questID:3": 172,

@@ -11,8 +11,7 @@
         "Damage:2": 2,
         "id:8": "ic2:blockmachinelv"
       },
-      "name:8": "Electric Furnace",
-      "visibility:8": "ALWAYS"
+      "name:8": "Electric Furnace"
     }
   },
   "questID:3": 149,

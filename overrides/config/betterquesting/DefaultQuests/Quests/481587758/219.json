@@ -7,8 +7,7 @@
         "Damage:2": 2,
         "id:8": "ic2:blockelectric"
       },
-      "name:8": "MFSU",
-      "visibility:8": "ALWAYS"
+      "name:8": "MFSU"
     }
   },
   "questID:3": 219,

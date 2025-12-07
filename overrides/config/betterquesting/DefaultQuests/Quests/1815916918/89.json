@@ -12,8 +12,7 @@
         "id:8": "projectex:collector"
       },
       "name:8": "Cyan Matter Collector [MK9]",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 89,

@@ -6,8 +6,7 @@
         "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "lc.did_you_know.ftbquests.title",
-      "visibility:8": "ALWAYS"
+      "name:8": "lc.did_you_know.ftbquests.title"
     }
   },
   "questID:3": 0,

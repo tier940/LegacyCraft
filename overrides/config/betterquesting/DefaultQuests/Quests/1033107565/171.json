@@ -10,8 +10,7 @@
         "Damage:2": 1,
         "id:8": "ic2:itemcable"
       },
-      "name:8": "Copper Cable",
-      "visibility:8": "ALWAYS"
+      "name:8": "Copper Cable"
     }
   },
   "questID:3": 171,

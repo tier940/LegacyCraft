@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_fluid_request"
       },
-      "name:8": "Logistics Fluid Request Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Fluid Request Pipe"
     }
   },
   "questID:3": 121,

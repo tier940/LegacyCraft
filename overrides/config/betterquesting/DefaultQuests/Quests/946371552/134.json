@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "ic2:blockgenerator"
       },
-      "name:8": "Generator",
-      "visibility:8": "ALWAYS"
+      "name:8": "Generator"
     }
   },
   "questID:3": 134,

@@ -10,8 +10,7 @@
         "Count:3": 1,
         "id:8": "ic2:blockelectric"
       },
-      "name:8": "BatBox",
-      "visibility:8": "ALWAYS"
+      "name:8": "BatBox"
     }
   },
   "questID:3": 33,

@@ -7,8 +7,7 @@
         "Damage:2": 1,
         "id:8": "buildcraftsilicon:redstone_chipset"
       },
-      "name:8": "Iron Chipset",
-      "visibility:8": "ALWAYS"
+      "name:8": "Iron Chipset"
     }
   },
   "questID:3": 75,

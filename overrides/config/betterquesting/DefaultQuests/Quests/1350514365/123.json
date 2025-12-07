@@ -14,8 +14,7 @@
         "id:8": "logisticspipes:upgrade_module_upgrade"
       },
       "name:8": "Module Upgrade",
-      "questlogic:8": "OR",
-      "visibility:8": "ALWAYS"
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 123,

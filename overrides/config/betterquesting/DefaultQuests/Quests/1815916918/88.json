@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "peex:collectors/collector_final"
       },
-      "name:8": "Final type Energy Collector",
-      "visibility:8": "ALWAYS"
+      "name:8": "Final type Energy Collector"
     }
   },
   "questID:3": 88,

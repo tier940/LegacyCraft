@@ -11,8 +11,7 @@
         "Damage:2": 3,
         "id:8": "vrgenerator:visibleraysolar"
       },
-      "name:8": "VisibleRay Generator 512 EU/t",
-      "visibility:8": "ALWAYS"
+      "name:8": "VisibleRay Generator 512 EU/t"
     }
   },
   "questID:3": 57,

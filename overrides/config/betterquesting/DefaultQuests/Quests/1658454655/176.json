@@ -7,8 +7,7 @@
         "Damage:2": 9,
         "id:8": "ic2:blockelectric"
       },
-      "name:8": "MV-Transformer",
-      "visibility:8": "ALWAYS"
+      "name:8": "MV-Transformer"
     }
   },
   "questID:3": 176,

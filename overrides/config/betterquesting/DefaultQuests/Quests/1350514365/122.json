@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:power_provider_rf"
       },
-      "name:8": "Logistics RF Power Provider",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics RF Power Provider"
     }
   },
   "questID:3": 122,

@@ -11,8 +11,7 @@
         "Damage:2": 3,
         "id:8": "ic2:blockmachinelv"
       },
-      "name:8": "Macerator",
-      "visibility:8": "ALWAYS"
+      "name:8": "Macerator"
     }
   },
   "questID:3": 28,

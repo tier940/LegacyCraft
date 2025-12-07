@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_fluid_basic"
       },
-      "name:8": "Logistics Fluid Basic Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Fluid Basic Pipe"
     }
   },
   "questID:3": 225,

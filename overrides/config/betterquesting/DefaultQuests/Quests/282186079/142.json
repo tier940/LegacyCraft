@@ -10,8 +10,7 @@
         "Damage:2": 1,
         "id:8": "enderstorage:ender_storage"
       },
-      "name:8": "Ender Tank",
-      "visibility:8": "ALWAYS"
+      "name:8": "Ender Tank"
     }
   },
   "questID:3": 142,

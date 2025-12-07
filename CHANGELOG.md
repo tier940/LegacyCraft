@@ -3,6 +3,7 @@
 - Advanced Backups
 
 ## New mods
+- Chicken Chunks 1.8.+ (2.4.2.74)
 - Key Binding Patch (1.3.3.3)
 
 ## Move mods

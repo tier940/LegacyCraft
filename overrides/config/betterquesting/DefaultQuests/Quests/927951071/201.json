@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "buildcraftcore:gear_iron"
       },
-      "name:8": "Iron Gear",
-      "visibility:8": "ALWAYS"
+      "name:8": "Iron Gear"
     }
   },
   "questID:3": 201,

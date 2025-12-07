@@ -9,8 +9,7 @@
         "Count:3": 1,
         "id:8": "logisticspipes:pipe_fluid_insertion"
       },
-      "name:8": "Logistics Fluid Insertion Pipe",
-      "visibility:8": "ALWAYS"
+      "name:8": "Logistics Fluid Insertion Pipe"
     }
   },
   "questID:3": 127,
