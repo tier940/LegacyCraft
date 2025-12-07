@@ -1,7 +1,7 @@
 [project]
-name = "gte2-buildtools"
+name = "lc-buildtools"
 version = "1.0.0"
-description = "Build tools for GTE2 Modpack"
+description = "Build tools for LC Modpack"
 requires-python = ">=3.12"
 dependencies = [
     "requests>=2.32.5",

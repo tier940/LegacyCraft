@@ -18,6 +18,7 @@
 
 ## Update mods
 - Alfheim Lighting Engine (1.4 -> 1.6)
+- CensoredASM (5.29 -> 5.30)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Had Enough Items (4.27.0 -> 4.29.12)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
