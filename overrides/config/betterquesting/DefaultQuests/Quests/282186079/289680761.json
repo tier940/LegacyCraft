@@ -49,6 +49,10 @@
         },
         "7:10": {
           "Count:3": 1,
+          "id:8": "ironchest:diamond_crystal_chest_upgrade"
+        },
+        "8:10": {
+          "Count:3": 1,
           "id:8": "ironchest:diamond_obsidian_chest_upgrade"
         }
       },
