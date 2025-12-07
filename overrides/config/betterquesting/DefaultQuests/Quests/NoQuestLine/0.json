@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "{lc.did_you_know.ftbquests.desc.0}\n{lc.did_ynow.ftbquests.desc.1}",
+      "desc:8": "lc.did_you_know.ftbquests.desc",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:nether_star"

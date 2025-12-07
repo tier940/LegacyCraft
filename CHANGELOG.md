@@ -2,24 +2,29 @@
 ## Disable mods
 - Advanced Backups
 
+## New mods
+- Key Binding Patch (1.3.3.3)
+
 ## Move mods
 - FTB Quests -> Better Questing Unofficial (4.2.6)
 
 ## Remove mods
 - NetherPortalFix
 - Valkyrie
+- VintageFix
 - Item Filters
 - FTB Utilities
 - FTB Library
 
 ## Update mods
 - Alfheim Lighting Engine (1.4 -> 1.6)
-- Had Enough Items (4.27.0 -> 4.29.8)
-- Inventory Bogo Sorter (1.4.8 -> 1.4.11)
-- MixinBooter (9.4 -> 10.6)
-- ModularUI (2.4.3 -> 2.5.0-rc6)
+- Fixeroo (2.3.6b -> 2.3.6)
+- Had Enough Items (4.27.0 -> 4.29.12)
+- Inventory Bogo Sorter (1.4.8 -> 1.5.0)
+- MixinBooter (9.4 -> 10.7)
+- ModularUI (2.4.3 -> 3.0.5)
 - Red Core (0.5.1 -> 0.7)
-- The One Probe Community Edition (1.3.5-fix3 -> 1.3.5-fix4)
+- The One Probe Community Edition (1.3.5-fix3 -> 1.3.6)
 - Universal Tweaks (1.14.0 -> 1.16.0.1)
 
 * * *

@@ -1,4 +1,3 @@
-lc.did_you_know.title=Did you know...?
 lc.vanilla.title=Vanilla
 lc.storage.title=Storage
 lc.storage.logi=Logistics
@@ -11,8 +10,3 @@ lc.tech.ic2.ev.title=Extreme Voltage
 lc.tech.ic2.iv.title=Insane Voltage
 lc.tech.bc.title=BuildCraft
 lc.magic.title=Magic
-
-
-lc.did_you_know.ftbquests.title=How to FTB Quests
-lc.did_you_know.ftbquests.desc.0=On the left side you can see what you need to complete the quest. On the right side is the reward.
-lc.did_you_know.ftbquests.desc.1=You may notice the little arrows on the left and right side. These show what quest you need to complete and what quests will be unlocked.
