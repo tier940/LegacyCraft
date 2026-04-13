@@ -131,7 +131,7 @@ jobs:
           git push origin ${{ env.VERSION_NORMAL }}
 
       - name: Create or Update GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.VERSION_NORMAL }}
           name: "Preview ${{ env.VERSION_NORMAL }}"
