@@ -1,3 +1,12 @@
+# 2.5.1
+## New mods
+- Advanced Backups Patch (1.0.6)
+
+# Enable mods
+- Advanced Backups
+
+* * *
+
 # 2.5.0
 ## Disable mods
 - Advanced Backups

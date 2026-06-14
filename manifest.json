@@ -152,7 +152,7 @@
     {
       "projectID": 876284,
       "fileID": 6148212,
-      "required": false
+      "required": true
     },
     {
       "projectID": 78779,
@@ -387,6 +387,11 @@
     {
       "projectID": 243883,
       "fileID": 2755785,
+      "required": true
+    },
+    {
+      "projectID": 1472996,
+      "fileID": 7822953,
       "required": true
     }
   ],
