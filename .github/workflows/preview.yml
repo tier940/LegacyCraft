@@ -152,7 +152,7 @@ jobs:
           tag_name: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
           name: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}"
           body: |
-            ## GregTech Expert 2 Preview - ${{ github.event.inputs.version }}
+            ## LegacyCraft Preview - ${{ github.event.inputs.version }}
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
