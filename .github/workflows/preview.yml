@@ -48,7 +48,6 @@ jobs:
 
       - name: Set Modpack Version
         run: |
-          sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
           BQVER=$(echo "${{ github.event.inputs.version }}" | tr -d '.')
           sed -i "s/BQVERSION/$BQVER/g" overrides/config/betterquesting/DefaultQuests/QuestSettings.json
 
@@ -76,7 +75,6 @@ jobs:
             CLEANROOM_VER=$(jq -r '.components[] | select(.uid == "net.minecraftforge") | .version' cmmc/mmc-pack.json)
             sed -i "s/CLEANROOMVERSION/$CLEANROOM_VER/g" serverfiles/cmmc/settings.sh serverfiles/cmmc/settings.bat serverfiles/cmmc/PleaseRead.txt
             mv -vf serverfiles/cmmc/* ./
-            rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*
             rm -vf .minecraft/mods/CustomMainMenu-*
@@ -98,7 +96,6 @@ jobs:
             mv -vf serverfiles/java8/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*
             rm -vf .minecraft/mods/Fixeroo-*
