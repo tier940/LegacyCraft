@@ -18,8 +18,11 @@ on:
 
 env:
   NAME: "LegacyCraft"
-  VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
-  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}-lwjgl3"
+  JAVA8_CF: "${{ github.event.inputs.version }}-CF_Java_8"
+  JAVA8_MMC: "${{ github.event.inputs.version }}-MMC_Java_8"
+  JAVA8_SERVER: "${{ github.event.inputs.version }}-Server_Java_8"
+  JAVA_OPT: "${{ github.event.inputs.version }}-MMC_Java_25-26"
+  JAVA_OPT_SERVER: "${{ github.event.inputs.version }}-Server_Java_25-26"
 
 jobs:
   build:
@@ -39,6 +42,12 @@ jobs:
 
       - name: Create artifacts directory
         run: mkdir -p artifacts
+
+      - name: Set Modpack Version
+        run: |
+          sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
+          BQVER=$(echo "${{ github.event.inputs.version }}" | tr -d '.')
+          sed -i "s/BQVERSION/$BQVER/g" overrides/config/betterquesting/DefaultQuests/QuestSettings.json
 
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
@@ -60,12 +69,30 @@ jobs:
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
             mv -vf overrides/ .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            CLEANROOM_VER=$(jq -r '.components[] | select(.uid == "net.minecraftforge") | .version' cmmc/mmc-pack.json)
+            sed -i "s/CLEANROOMVERSION/$CLEANROOM_VER/g" serverfiles/cmmc/settings.sh serverfiles/cmmc/settings.bat serverfiles/cmmc/PleaseRead.txt
+            mv -vf serverfiles/cmmc/* ./
+            rm -vf .minecraft/mods/CraftPresence-*
+            rm -vf .minecraft/mods/Controlling-*
+            rm -vf .minecraft/mods/UniLib-*
+            rm -vf .minecraft/mods/CustomMainMenu-*
+            rm -vf .minecraft/mods/Fixeroo-*
+            rm -vf .minecraft/mods/FpsReducer-*
+            rm -vf .minecraft/mods/modernsplash-*
+            rm -vf .minecraft/mods/SmoothFont-*
+            rm -vf .minecraft/mods/InGameInfoXML-*
+            rm -vf .minecraft/mods/oauth-*
+            rm -vf .minecraft/mods/UntranslatedItems-*
+            mv -vf .minecraft/* ./
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip PleaseRead.txt Install.* ServerStart.* settings.* config/ local/ mods/ resources/ scripts/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/scripts/
             mv overrides/ .minecraft/
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
-            mv serverfiles/* ./
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip mmc-pack.json instance.cfg .minecraft/
+            FORGE_VER=$(jq -r '"\(.minecraft.version)-\(.minecraft.modLoaders[0].id | sub("forge-"; ""))"' manifest.json)
+            sed -i "s/FORGEVERSION/$FORGE_VER/g" serverfiles/java8/settings.sh serverfiles/java8/settings.bat serverfiles/java8/PleaseRead.txt
+            mv -vf serverfiles/java8/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
             rm -vf .minecraft/mods/CraftPresence-*
@@ -82,7 +109,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -118,36 +145,26 @@ jobs:
             fi
           done
 
-      - name: Check or create tag
-        run: |
-          if git rev-parse --verify --quiet "${{ env.VERSION_NORMAL }}"; then
-            echo "Tag exists."
-          else
-            git config --local user.name "github-actions"
-            git config --local user.email "actions@github.com"
-            git tag ${{ env.VERSION_NORMAL }}
-            git push origin ${{ env.VERSION_NORMAL }}
-          fi
-
       - name: Create or update GitHub Release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: ${{ env.VERSION_NORMAL }}
-          name: "Modpack ${{ env.VERSION_NORMAL }}"
+          tag_name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
+          name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
           body: |
-            ## LegacyCraft - ${{ env.VERSION_NORMAL }}
+            ## GregTech Expert 2 - ${{ github.event.inputs.version }}
 
             This preview includes:
-            - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
-            - **LWJGL3** (MultiMC / PrismLauncher only)
+            - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
+            - **Java 25-26** (MultiMC / PrismLauncher / Server)
 
-            See installation guide for LWJGL3 [here](https://github.com/tier940/LegacyCraft/blob/main/cmmc/README.md).
+            See installation guide for Java 25-26 [here](https://github.com/tier940/LegacyCraft/blob/main/cmmc/).
           prerelease: false
           generate_release_notes: true
           files: |
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

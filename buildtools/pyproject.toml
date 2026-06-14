@@ -1,10 +1,11 @@
 [project]
 name = "lc-buildtools"
-version = "1.0.0"
+version = "1.1.0"
 description = "Build tools for LC Modpack"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
-    "requests>=2.32.5",
+    "json5>=0.12.1",
+    "requests>=2.33.0",
 ]
 
 [tool.uv]

@@ -8,5 +8,5 @@ start_server() {
     java -server -Xms${MIN_RAM} -Xmx${MAX_RAM} -XX:MaxMetaspaceSize=${Max_MetaspaceSize} ${JAVA_PARAMETERS} -jar ${SERVER_JAR} nogui
 }
 
-echo "Starting Starting Server..."
+echo "Starting Starting GregTech Expert Server..."
 start_server
