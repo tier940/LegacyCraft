@@ -48,6 +48,7 @@ jobs:
 
       - name: Set Modpack Version
         run: |
+          sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg
           BQVER=$(echo "${{ github.event.inputs.version }}" | tr -d '.')
           sed -i "s/BQVERSION/$BQVER/g" overrides/config/betterquesting/DefaultQuests/QuestSettings.json
 

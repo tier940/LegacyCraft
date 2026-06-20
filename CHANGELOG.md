@@ -2,8 +2,22 @@
 ## New mods
 - Advanced Backups Patch (1.0.6)
 
+## Move mods
+- CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)
+
 # Enable mods
 - Advanced Backups
+
+# Remove mods
+- ModTweaker (4.0.20.11)
+- MTLib (3.0.7)
+
+# Update mods
+- Better Questing Unofficial (4.2.6 -> 4.3.2)
+- Chibi (5.30 -> 5.33)
+- Fixeroo (2.3.6 -> 2.3.7)
+- Inventory Bogo Sorter (1.5.0 -> 1.6.4)
+- ModularUI (3.0.5 -> 3.1.6)
 
 * * *
 
@@ -28,7 +42,7 @@
 
 ## Update mods
 - Alfheim Lighting Engine (1.4 -> 1.6)
-- CensoredASM (5.29 -> 5.30)
+- Chibi (5.29 -> 5.30)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Had Enough Items (4.27.0 -> 4.29.12)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
@@ -47,7 +61,7 @@
 > https://github.com/tier940/LegacyCraft/releases
 
 ## Update mods
-- CensoredASM (5.28 -> 5.29)
+- Chibi (5.28 -> 5.29)
 - The One Probe Community Edition (1.3.5-fix2 -> 1.3.5-fix3)
 - VintageFix (0.6.1 -> 0.6.2)
 
@@ -79,7 +93,7 @@
 - Entity Culling (6.4.3 -> 6.5.0)
 - Fixeroo (2.3.2 -> 2.3.5-hotfix.1)
 - Had Enough Items (4.25.5 -> 4.27.3)
-- CensoredASM (5.20 -> 5.28)
+- Chibi (5.20 -> 5.28)
 - Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
 - RenderLib (1.3.5 -> 1.4.3)
 - StellarCore (1.5.20 -> 1.5.21)
@@ -107,7 +121,7 @@
 - Had Enough Items (4.25.2 -> 4.26.2)
 - IC2 Classic (1.5.8 -> 1.5.11)
 - JourneyMap (5.7.1 -> 5.7.1p3)
-- CensoredASM (5.19 -> 5.20)
+- Chibi (5.19 -> 5.20)
 - MixinBooter (8.6 -> 9.4)
 - ModularUI (2.4.2 -> 2.4.3)
 - RenderLib (1.3.4 -> 1.3.5)
@@ -131,7 +145,7 @@
 - Entity Culling
 - Had Enough Items
 - Inventory Bogo Sorter
-- CensoredASM
+- Chibi
 - MixinBooter
 - ModularUI
 - RenderLib
@@ -149,7 +163,7 @@
 - Entity Culling
 - Had Enough Items
 - Inventory Bogo Sorter
-- CensoredASM
+- Chibi
 - ModularUI
 - Universal Tweaks
 - VintageFix
@@ -163,7 +177,7 @@
 - ModularUI
 - Mouse Tweaks Unofficial
 - Inventory Bogo Sorter
-- CensoredASM
+- Chibi
 - Placebo
 - CraftTweaker
 - Universal Tweaks
@@ -186,7 +200,7 @@
 
 # v2.2.0
 ## Update mods
-- CensoredASM
+- Chibi
 - Had Enough Items
 - IC2 Classic
 - Inventory Bogo Sorter
