@@ -1,9 +1,11 @@
-# 2.5.1
+# 2.6.0
 ## New mods
 - Advanced Backups Patch (1.0.6)
+- LegacyCraft Core (1.0.0)
 
 ## Move mods
 - CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)
+- Buildcraft (8.0.0) -> BC remastered (8.0.11)
 
 # Enable mods
 - Advanced Backups
@@ -17,6 +19,7 @@
 - Chibi (5.30 -> 5.33)
 - Fixeroo (2.3.6 -> 2.3.7)
 - Inventory Bogo Sorter (1.5.0 -> 1.6.4)
+- LogisticsPipes (0.10.4.27 -> 0.10.4.49)
 - ModularUI (3.0.5 -> 3.1.6)
 
 * * *
