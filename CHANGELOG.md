@@ -1,7 +1,17 @@
 # 2.6.0
+## Modpack information
+- BC has been updated to a fork by a different author, improving stability and performance.
+    - Note: This change will cause energy pipes to disappear due to replacement.
+- The energy version of the teleport pipe from AdditionalPipes has been restored.
+    - Item textures are not yet supported, but item functionality works correctly.
+    - Please report bugs at [LegacyCraft Core](https://www.curseforge.com/minecraft/mc-mods/legacycraft-core).
+- Remote transport using the item version of the teleport pipe from AdditionalPipes is now available in LogisticsPipes.
+    - This feature enables intuitive remote item transport.
+    - Please report bugs at [LegacyCraft Core](https://www.curseforge.com/minecraft/mc-mods/legacycraft-core).
+
 ## New mods
 - Advanced Backups Patch (1.0.6)
-- LegacyCraft Core (1.1.1)
+- LegacyCraft Core (1.2.0)
 
 ## Move mods
 - CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)
@@ -18,6 +28,7 @@
 - Better Questing Unofficial (4.2.6 -> 4.3.2)
 - Chibi (5.30 -> 5.33)
 - Fixeroo (2.3.6 -> 2.3.7)
+- IC2 Classic (1.5.13 -> 1.5.15)
 - Inventory Bogo Sorter (1.5.0 -> 1.6.4)
 - LogisticsPipes (0.10.4.27 -> 0.10.4.49)
 - ModularUI (3.0.5 -> 3.1.6)
