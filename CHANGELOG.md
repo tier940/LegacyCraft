@@ -1,7 +1,7 @@
 # 2.6.0
 ## New mods
 - Advanced Backups Patch (1.0.6)
-- LegacyCraft Core (1.0.0)
+- LegacyCraft Core (1.1.1)
 
 ## Move mods
 - CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)

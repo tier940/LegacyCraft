@@ -35,8 +35,6 @@ mods.minecraft.crafting.remove('buildcrafttransport:pipe_iron_power_colorless')
 mods.minecraft.crafting.remove('buildcrafttransport:pipe_gold_power_colorless')
 mods.minecraft.crafting.remove('buildcrafttransport:pipe_sandstone_power_colorless')
 mods.minecraft.crafting.remove('buildcrafttransport:pipe_diamond_power_colorless')
-mods.minecraft.crafting.remove('buildcrafttransport:pipe_diamond_wood_power_colorless')
-
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_wood_power'))
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_cobble_power'))
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_stone_power'))
@@ -45,52 +43,46 @@ mods.jei.ingredient.hide(item('buildcrafttransport:pipe_iron_power'))
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_gold_power'))
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_sandstone_power'))
 mods.jei.ingredient.hide(item('buildcrafttransport:pipe_diamond_power'))
-mods.jei.ingredient.hide(item('buildcrafttransport:pipe_diamond_wood_power'))
 
-// Redstone Flux Pipes
+// Power Pipes
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_wood_rf'))
+    .output(item('buildcrafttransport:pipe_wood_power'))
     .input([item('buildcrafttransport:pipe_wood_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_cobble_rf'))
+    .output(item('buildcrafttransport:pipe_cobble_power'))
     .input([item('buildcrafttransport:pipe_cobble_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_stone_rf'))
+    .output(item('buildcrafttransport:pipe_stone_power'))
     .input([item('buildcrafttransport:pipe_stone_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_quartz_rf'))
+    .output(item('buildcrafttransport:pipe_quartz_power'))
     .input([item('buildcrafttransport:pipe_quartz_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_iron_rf'))
+    .output(item('buildcrafttransport:pipe_iron_power'))
     .input([item('buildcrafttransport:pipe_iron_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_gold_rf'))
+    .output(item('buildcrafttransport:pipe_gold_power'))
     .input([item('buildcrafttransport:pipe_gold_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_sandstone_rf'))
+    .output(item('buildcrafttransport:pipe_sandstone_power'))
     .input([item('buildcrafttransport:pipe_sandstone_item'), ore('dustRedstone')])
     .register()
 
 mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_diamond_rf'))
+    .output(item('buildcrafttransport:pipe_diamond_power'))
     .input([item('buildcrafttransport:pipe_diamond_item'), ore('dustRedstone')])
-    .register()
-
-mods.minecraft.crafting.shapelessBuilder()
-    .output(item('buildcrafttransport:pipe_diamond_wood_rf'))
-    .input([item('buildcrafttransport:pipe_diamond_wood_item'), ore('dustRedstone')])
     .register()
 
 // ── QuarryPlus (Assembly Table) ───────────────────────────────────────────────
