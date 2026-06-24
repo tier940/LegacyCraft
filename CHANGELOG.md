@@ -1,3 +1,9 @@
+# 2.6.1
+# Update mods
+- LegacyCraft Core (1.2.0 -> 1.2.3)
+
+* * *
+
 # 2.6.0
 ## Modpack information
 - BC has been updated to a fork by a different author, improving stability and performance.
