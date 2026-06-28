@@ -1,6 +1,10 @@
 # 2.6.1
+# New mods
+- StorageBox (1.0.1)
+- InfinityChest (1.0.1)
+
 # Update mods
-- LegacyCraft Core (1.2.0 -> 1.2.3)
+- LegacyCraft Core (1.2.0 -> 1.2.4)
 
 * * *
 
