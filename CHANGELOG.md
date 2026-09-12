@@ -1,3 +1,9 @@
+# 2.6.4
+## Modpack information
+- Fix server crash.
+
+* * *
+
 # 2.6.3
 ## Update mods
 - Had Enough Items (4.29.12 -> 4.34.3)
